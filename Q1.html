@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Describe the main differences between the CSS Flexbox layout model and the CSS Grid layout model. When would you choose to use one over the other? -->
+    <table border="5">
+        <tr>
+            <th>Flexbox Layout Model</th>
+            <th>Grid Layout Model</th>
+        </tr>
+        <tr>
+            <td> Flexbox was designed for layout in one dimension - either a row or a column.</td>
+            <td>Grid was designed for two-dimensional layout - rows, and columns at the same time.</td>
+        </tr>
+        <tr>
+            <td>Flexbox gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario.</td>
+            <td>GRID gives you more flexibility to move around the blocks irrespective of your HTML markup.</td>
+        </tr>
+        <tr>
+            <td>Flexbox offers greater control over alignment and space distribution between items.</td>
+            <td>Grid has two-dimension layout capabilities which allow flexible widths as a unit of length. This compensates for the limitations in Flex.</td>
+        </tr>
+        <tr>
+            <td>Flex Direction allows developers to align elements vertically or horizontally, which is used when developers create and reverse rows or columns.</td>
+            <td>CSS Grid deploys fractional measure units for grid fluidity and auto-keyword functionality to automatically adjust columns or rows.</td>
+        </tr>
+        <tr>
+            <td>The major Uniqueness is that the Flexbox works on content </td>
+            <td> Grid is based on the layout.</td>
+        </tr>
+        <tr>
+            <td>The Flexbox layout is best suited to application components and small-scale layouts</td>
+            <td>Grid layout is designed for larger-scale layouts that are not linear in design.</td>
+        </tr>
+    </table>
+    <h1>When to use CSS Flexbox</h1>
+    <ul>
+        <li><strong>Small design to implement:</strong> Flexbox is ideal when you have a small layout design to implement, with a few rows or a few columns</li>
+        <li><strong>Need to align elements:</strong> Flexbox is perfect for that, the only thing we should do is create a flex container using display: flex and then define the flex-direction that we want</li>
+        <li><strong>Need a content-first design :</strong> Flexbox is the ideal layout system to create web pages if you don’t know exactly how your content is going to look, so if you want everything just to fit in, Flexbox is perfect for that</li>
+    </ul>
+
+    <h1>When to use CSS Grid</h1>
+    <ul>
+        <li><strong>Complex design to implement:</strong> In some use cases, we have complex designs to implement, and that’s when the magic of CSS Grid shows itself. The two-dimensional layout system here is perfect to create a complex design. We can use it in our favor to create more complex and maintainable web pages</li>
+        <li><strong>Need to have a gap between block elements:</strong>You need to have a gap between block elements: Another thing that’s very helpful in CSS Grid, that we don’t have in Flexbox, is the gap property. We can define the gap between our rows or columns very easily, without having to use the margin property, which can cause some side effects especially if we’re working with many breakpoints</li>
+        <li><strong>You need to overlap elements:</strong>Overlapping elements using CSS Grid is very easy, you just need to use the grid-column and grid-row properties and you can have overlapping elements very easily. On the other hand, with Flexbox we still need to use some hacks such as margins, transforms, or absolute positioning</li>
+        <li><strong>Need a layout-first design:</strong>  When you already have your layout design structure, it’s easier to build with CSS Grid, and the two-dimensional layout system helps us a lot when we’re able to use rows and columns together, and position the elements the way we want</li>
+    </ul>
+</body>
+</html>

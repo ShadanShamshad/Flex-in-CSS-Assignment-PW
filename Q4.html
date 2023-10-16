@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4 Solution</title>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-color: #202842;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .pricing-section{
+            width: 962px;
+            height: 427px;
+            padding: 32px 48px;
+            background-color: #F4F2FD;
+            gap: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width: 262px;
+            height: 363px;
+            border-radius: 8px;
+            padding: 32px;
+            /* gap: 32px; */
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        .card1{
+            background-color:#FFFFFF;
+        }
+        .card2{
+            background-color:#202842;
+        }
+        .card3{
+            width: 263px;
+            height: 361px;
+            background-color:#FFFFFF;
+        }
+        .card-details{
+            width: 198px;
+            height: 306px;
+            margin-bottom: 16px;
+        }
+        .card-header{
+            width: 198px;
+            height: 108px;
+        }
+        .header-name{
+            font-size: 32px;
+            font-weight: 700;
+            color:#202842;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+        .card-header h4{
+            font-weight: 300;
+            font-size: 16px;
+            color:#202842;
+            margin-top: 0px;
+            padding-top: 0px;
+        }
+        .plan-details{
+            width: 198px;
+            height: 112px;
+            padding: 0px, 0px, 0px, 8px;
+        }
+        .plan-details ul{
+            list-style-type: none;
+            margin-left: 0px;
+            padding-left: 0px;
+            font-size: 16px;
+        }
+        li img{
+            width: 22px;
+            height:22px;
+        }
+        .btn{
+            width:156px;
+            height:38px;
+            padding: 8px, 24px, 8px, 24px;
+            border-radius: 50px;
+            color: white;
+            background: #202842;
+            margin-top: 16px;
+            margin-left: 15px;
+        
+        }
+        /* CARD-2 */
+
+        .card2 .header-name{
+            color: #FFFFFF;
+        }
+        .card2 h4{
+            color: #FFFFFF;
+        }
+        .card2 ul{
+            color: #FFFFFF;
+        }
+        .btn2{
+            background: #FFFFFF;
+            color: #202842;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="pricing-section">
+        <div class="card card1">
+            <div class="card-details">
+                <div class="card-header">
+                    <h1 class="header-name">Free Plan</h1>
+                    <h4>For Personal</h4>
+                    <img src="./imagesQ4/$0.png" alt="$0">
+                </div>
+                <br>
+                <div class="plan-details">
+                    <ul>
+                        <li><img src="./imagesQ4/blueCheckMark.png" alt="check mark"> 1 user</li>
+                        <li><img src="./imagesQ4/blueCheckMark.png" alt="check mark"> 4 Web mails</li>
+                        <li><img src="./imagesQ4/blueCheckMark.png" alt="check mark"> Responsive Website</li>
+                        <li><img src="./imagesQ4/blueCheckMark.png" alt="check mark"> Free SSL</li>
+                    </ul>
+                </div>
+                <button class="btn btn1">Subscribe</button>
+            </div>
+        </div>
+        <div class="card card2">
+            <div class="card-details">
+                    <div class="card-header">
+                        <h1 class="header-name">Basic Plan</h1>
+                        <h4>For Small Business</h4>
+                        <img src="./imagesQ4/$29.png" alt="$29">
+                    </div>
+                    <br>
+                    <div class="plan-details">
+                        <ul>
+                            <li><img src="./imagesQ4/whiteCheckMark.png" alt="check mark"> 4 users</li>
+                            <li><img src="./imagesQ4/whiteCheckMark.png" alt="check mark"> 10 Web mails</li>
+                            <li><img src="./imagesQ4/whiteCheckMark.png" alt="check mark"> Responsive Website</li>
+                            <li><img src="./imagesQ4/whiteCheckMark.png" alt="check mark"> Free SSL</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn2">Subscribe</button>
+                </div>
+            </div>
+        <div class="card card3">
+            <div class="card-details">
+                    <div class="card-header">
+                        <h1 class="header-name">Pro Plan</h1>
+                        <h4>For enterprise</h4>
+                        <img src="./imagesQ4/$49.png" alt="$49">
+                    </div>
+                    <br>
+                    <div class="plan-details">
+                        <ul>
+                            <li><img src="./imagesQ4/blueCheckMark.png" alt="check mark"> Unlimited users</li>
+                            <li><img src="./imagesQ4/blueCheckMark.png" alt="check mark"> Unlimited Web mails</li>
+                            <li><img src="./imagesQ4/blueCheckMark.png" alt="check mark"> Responsive Website</li>
+                            <li><img src="./imagesQ4/blueCheckMark.png" alt="check mark"> Free SSL + SEO</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn1">Subscribe</button>
+                </div>
+            </div>
+    </div>
+</body>
+</html>

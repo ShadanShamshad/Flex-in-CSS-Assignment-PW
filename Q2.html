@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ordered-list{
+            font-size: larger;
+
+        }
+        .ordered-list strong{
+            font-size: 30px;
+            color: #0059ff;
+        }
+        .one{
+            background-color: #cae5ec;
+        }
+    
+    </style>
+</head>
+<body>
+    <!-- Explain the role of the foliowing key properties in the Flexbox layout model
+    1. Justify-content
+    2. align-item
+    3. gap
+    4. flex-directio.
+    5. flex-wrap -->
+    <ol class="ordered-list">
+        <li class="one"><strong>Justify-content :</strong>The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container.The justify-content property accepts five different values:</li>
+        <ul>
+            <li>flex-start (default): items are packed toward the start line</li>
+            <li>flex-end: items are packed toward to end line</li>
+            <li>center: items are centered along the line</li>
+            <li>space-between: items are evenly distributed in the line; first item is on the start line, last item on the end line</li>
+            <li>space-around: items are evenly distributed in the line with equal space around them</li>
+            <li>space-evenly: items are distributed so that the spacing between any two adjacent alignment subjects, before the first alignment subject, and after the last alignment subject is the same</li>
+        </ul>
+        <br>
+        <li class="one"><strong>Align-item :</strong>The CSS align-items property sets the align-self value on all direct children as a group. In Flexbox, it controls the alignment of items on the Cross Axis.The align-items property accepts 5 different values:</li>
+        <ul>
+            <li>flex-start: cross-start margin edge of the items is placed on the cross-start line</li>
+            <li>flex-end: cross-end margin edge of the items is placed on the cross-end line</li>
+            <li>center: items are centered in the cross-axis</li>
+            <li>baseline: items are aligned such as their baselines align</li>
+            <li>stretch (default): stretch to fill the container (still respect min-width/max-width)</li>
+        </ul>
+        <br>
+        <li  class="one"><strong>Gap :</strong>The gap property in CSS is a shorthand for row-gap and column-gap, specifying the size of gutters, which is the space between rows and columns within grid, flex, and multi-column layouts.</li>
+        <ul>
+            <li>A single value sets both row-gap and column-gap by the same value.</li>
+            <li>When two values are used, the first sets the row-gap and the second sets the column-gap.</li>
+            <ul>
+            <p>Property values:</p>
+            <li>length: The spacing is given in terms of length unit i.e. rm, px etc. For example: gap: 10px 20px</li>
+            <li>percentage:  The spacing is given in terms of percentage unit. For example: gap: 50%</li>
+        </ul>
+        </ul>
+        <br>
+        <li  class="one"><strong>Flex-direction :</strong>
+            The flex-direction CSS property sets how flex items are placed in the flex container defining the main axis and the direction (normal or reversed).The flex-direction property accepts four possible values:
+        </li>
+            <ul>
+                <li>row: same as text direction (default)</li>
+                <li>row-reverse: opposite to text direction</li>
+                <li>column: same as row but top to bottom</li>
+                <li>column-reverse: same as row-reverse top to bottom</li>
+            </ul>
+    
+        <br>
+        <li  class="one"><strong>Flex-wrap :</strong>The flex-wrap property is a sub-property of the Flexible Box Layout Module. It defines whether the flex items are forced in a single line or can be flowed into multiple lines. If set to multiple lines, it also defines the cross-axis which determines the direction new lines are stacked in, aiding responsiveness layout behavior without CSS media queries.
+        </li>
+        <ul>
+            <li>nowrap (default): single-line which may cause the container to overflow</li>
+            <li>wrap: multi-lines, direction is defined by flex-direction</li>
+            <li>wrap-reverse: multi-lines, opposite to direction defined by flex-direction</li>
+        </ul>
+       
+    </ol>
+</body>
+</html>
